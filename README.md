@@ -1,5 +1,8 @@
 # TFTP Server
-**Submission by**: Giuseppe Rainone (50%), Matteo Pinzani (50%)
+Developed as part of the Computer Networks course during my Erasmus at Linnaeus University (Växjö, Sweden).
+
+## Project Context
+The goal was to build a fully functional, concurrent TFTP server from scratch using Java, adhering to the RFC 1350 standard.
 
 ## Overview
 A concurrent TFTP (Trivial File Transfer Protocol) server implemented in Java according to the RFC 1350 specification. The server supports read (RRQ) and write (WRQ) requests in `octet` mode, handles large multi-block file transfers, and features a robust lock-step timeout and retransmission mechanism.
